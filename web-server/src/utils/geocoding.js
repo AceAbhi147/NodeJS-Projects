@@ -11,12 +11,12 @@ const geocoding = (address, callback) => {
         } else if (body.error) {
             callback('Some error occurred!! Err Msg: ' + body.error.message, undefined)
         } else if (body.data.length == 0) {
-            console.log('error')
-            console.log(geocodingUrl)
-            console.log(body.data[0])
+            // console.log('error')
+            // console.log(geocodingUrl)
+            // console.log(body.data[0])
             callback('Please provide a valid address!!')
         }  else {
-            console.log(body.data[0])
+            // console.log(body.data[0])
             callback(undefined, {
                 latitude: body.data[0].latitude,
                 longitude: body.data[0].longitude,
