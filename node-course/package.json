@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "validator": "^13.7.0",
+    "yargs": "^17.3.1"
+  },
+  "name": "course",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  }
+}
